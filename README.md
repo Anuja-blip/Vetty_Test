@@ -7,18 +7,11 @@ This Flask application reads the content of specified text files, allowing optio
 - Python 3.x
 - pip (Python package installer)
 
-## Setup
-
-1. Clone the repository:
-
-   git clone https://github.com/your-username/VETTY_TEST.git
-   cd VETTY_TEST
-
-   ## Setting Up and Running the Application
+## Setting Up and Running the Application
 
 ### Create a Virtual Environment
 
-
+code
 python -m venv venv
 ## Activate the Virtual Environment
 
