@@ -11,7 +11,6 @@ This Flask application reads the content of specified text files, allowing optio
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/your-username/VETTY_TEST.git
    cd VETTY_TEST
 
@@ -19,28 +18,28 @@ This Flask application reads the content of specified text files, allowing optio
 
 ### Create a Virtual Environment
 
-```bash
+
 python -m venv venv
 ## Activate the Virtual Environment
 
 ### On Windows:
 
-```bash
+
 .\venv\Scripts\activate
 
 On Unix or MacOS:
-```bash
+
 source venv/bin/activate
 
 ### Install Dependencies
 
-```bash
+
 pip install -r requirements.txt
 
 ### Running the Application
 ###Run the Flask application:
 
-```bash
+
 
 python app.py
 
