@@ -38,8 +38,17 @@ pip install -r requirements.txt
 python app.py
 ```
 
+
 Open your browser and go to http://127.0.0.1:5000/file_content to view the default file content.
 
 Optionally, specify a file name and line range using URL parameters:
 
 Example: http://127.0.0.1:5000/file_content/file2.txt?start_line=2&end_line=5
+
+### Deactivating the Virtual Environment
+When you're done using the application, deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
