@@ -11,8 +11,8 @@ This Flask application reads the content of specified text files, allowing optio
 
 ### Create a Virtual Environment
 
-
-python -m venv venv
+```bash
+source python -m venv venv
 ## Activate the Virtual Environment
 
 ### On Windows:
