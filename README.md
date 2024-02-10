@@ -11,7 +11,7 @@ This Flask application reads the content of specified text files, allowing optio
 
 ### Create a Virtual Environment
 
-code
+
 python -m venv venv
 ## Activate the Virtual Environment
 
@@ -20,7 +20,7 @@ python -m venv venv
 
 .\venv\Scripts\activate
 
-On Unix or MacOS:
+### On Unix or MacOS:
 
 source venv/bin/activate
 
