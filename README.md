@@ -12,30 +12,32 @@ This Flask application reads the content of specified text files, allowing optio
 ### Create a Virtual Environment
 
 ```bash
-source python -m venv venv
+ python -m venv venv
+
 ## Activate the Virtual Environment
 
 ### On Windows:
 
-
+```bash
 .\venv\Scripts\activate
 
 ### On Unix or MacOS:
-
-source venv/bin/activate
+```bash
+venv/bin/activate
 
 ### Install Dependencies
 
-
+```bash
 pip install -r requirements.txt
 
 ### Running the Application
 ###Run the Flask application:
 
 
-
+```bash
 python app.py
 
+### 
 Open your browser and go to http://127.0.0.1:5000/file_content to view the default file content.
 
 Optionally, specify a file name and line range using URL parameters:
